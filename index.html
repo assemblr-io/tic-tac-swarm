@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Bug!</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>TIC TAC <span style="color: #66bbff">SWARM</span></h1>
+      <p>THE SWARM IS COMING AND ITS HUNGRY!</p>
+      <div id="game-outcome"><span>DRAW</span></div>
+    </header>
+    <div id="game-wrapper">
+      <div id="container" class="game-container classic"></div>
+      <canvas id="swarm"></canvas>
+      <div id="screen-cover"></div>
+      <aside id="rhs">
+        <p id="playa-O" class="playa">PLAYER</p>
+        <p id="O" class="inactive-turn">O</p>
+      </aside>
+      <aside id="lhs">
+        <p id="playa-X" class="playa active">PLAYER</p>
+        <p id="X" class="active-turn">X</p>
+      </aside>
+      <footer>
+        <div>
+          <h3>GAME OPTIONS</h3>
+          <button id="classic" class="active">classic lines</button>
+          <button id="disco">disco lines</button>
+          <button id="reset">reset game</button>
+        </div>
+        <div class="slider">
+          <input id="grid-slider" type="range" min="3" max="9" value="3" />
+        </div>
+      </footer>
+    </div>
+
+    <script src="./javascript/app.js" type="module"></script>
+    <script src="./javascript/swarm.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rangeslider-js@3.2.5/dist/rangeslider-js.min.js"></script>
+  </body>
+</html>
