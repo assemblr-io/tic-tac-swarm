@@ -24,6 +24,7 @@ The style is modern, almost steam punky.
 
 - session storage of games
 - game wins counter underneath the 'X' and 'O' characters
+- rqandomise who starts AND implement minimax game theory - need to randomise tho cause whoever goes second cannot win!
 - more dramatic animation of the 'win' CSS class and removal of the 'hero glitch layer' class - maybe a blinking neon sign effect
 - change the number of chars in a row to win! so on a 9x9 you can win with 5 in a row/column/diagonal
 
