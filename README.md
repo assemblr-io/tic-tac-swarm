@@ -1,6 +1,6 @@
 # Tic Tac Swarm
 
-This is a gam of tic tac toe with a twist! 
+This is a game of tic tac toe with a snakey twist! 
 
 The game allows a user to specify the size of a game grid between 3x3 and 9x9, as well as allowing them to styalise the game grid borders between two options.
 
