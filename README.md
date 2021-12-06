@@ -27,6 +27,7 @@ The style is modern, almost steam punky.
 - rqandomise who starts AND implement minimax game theory - need to randomise tho cause whoever goes second cannot win!
 - more dramatic animation of the 'win' CSS class and removal of the 'hero glitch layer' class - maybe a blinking neon sign effect
 - change the number of chars in a row to win! so on a 9x9 you can win with 5 in a row/column/diagonal
+- look at @media .. its largely responsive BUT specify layouts for iPad and smaller phone screens
 
 ## BUGS
 
