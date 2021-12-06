@@ -30,4 +30,4 @@ The style is modern, almost steam punky.
 ## BUGS
 
 - re-size swarm mcanvas when the window.size changes ... if the user re-sizes the browser window
-- - snakes move twice as fast in mozilla
+- snakes move twice as fast in mozilla
