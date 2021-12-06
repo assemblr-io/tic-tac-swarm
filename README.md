@@ -22,6 +22,7 @@ The style is modern, almost steam punky.
 
 ## Features to implement
 
+- if player takes too long to take a turn, the swarm randomly eats off the board one of their moves! (thankyou josh! awesome idea)
 - session storage of games
 - game wins counter underneath the 'X' and 'O' characters
 - rqandomise who starts AND implement minimax game theory - need to randomise tho cause whoever goes second cannot win!
