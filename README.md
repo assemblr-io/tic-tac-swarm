@@ -25,3 +25,7 @@ The style is modern, almost steam punky.
 - session storage of games
 - game wins counter underneath the 'X' and 'O' characters
 - more dramatic animation of the 'win' CSS class and removal of the 'hero glitch layer' class - maybe a blinking neon sign effect
+
+## BUGS
+
+- re-size swarm mcanvas when the window.size changes ... if the user re-sizes the browser window
